@@ -80,9 +80,9 @@ pnpm run build     # emit dist/ artifacts
 pnpm test          # run Vitest suite
 ```
 
-Build uses `tsc`; tests are handled by Vitest. `pnpm` — менеджер по умолчанию, но `npm`/`yarn` тоже подойдут.
+Build uses `tsc`; tests are handled by Vitest. `pnpm` is the default package manager for this repo, but `npm`/`yarn` work too.
 
 ## Changelog & License
 
-- Все изменения фиксируются в [CHANGELOG.md](./CHANGELOG.md). Перед релизом обнови дату и записи.
-- Проект распространяется по лицензии [MIT](./LICENSE).
+- See [CHANGELOG.md](./CHANGELOG.md) for release notes; update the date before publishing a new version.
+- Distributed under the [MIT](./LICENSE) license.

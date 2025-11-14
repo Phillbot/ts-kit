@@ -1,0 +1,50 @@
+{
+  "name": "ts-kit",
+  "version": "1.0.0",
+  "description": "Collection of TypeScript-first helpers, type guards, and runtime asserts.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phillbot/ts-kit"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^4.0.9"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "typescript",
+    "helpers",
+    "typeguards",
+    "assertions",
+    "utility"
+  ],
+  "bugs": {
+    "url": "https://github.com/Phillbot/ts-kit/issues"
+  },
+  "homepage": "https://github.com/Phillbot/ts-kit#readme"
+}

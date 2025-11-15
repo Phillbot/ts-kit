@@ -1,6 +1,6 @@
 {
   "name": "handy-ts-tools",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Collection of TypeScript-first helpers, type guards, and runtime asserts.",
   "license": "MIT",
   "type": "module",
